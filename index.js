@@ -1,4 +1,13 @@
 import React from 'react';
+
+import Navigation from "./components/nav/Navigation"
+import InfoPopup from "./components/popup/InfoPopup"
+
+export {
+  Navigation,
+  InfoPopup
+};
+
 import {
   AppRegistry,
   StyleSheet,
@@ -12,7 +21,7 @@ export default class home_expo extends React.Component {
       <View style={styles.panel}>
         <View style={styles.greetingBox}>
           <Text style={styles.greeting}>
-            Welcome to React 360
+            Home expo 1.0
           </Text>
         </View>
       </View>
