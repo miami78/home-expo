@@ -1,0 +1,36 @@
+{
+	"name":"home-expo",
+	"defaults":{
+		"infos":{
+			"icon":"icons/info.png"
+		}
+	},
+	"firstSceneId":"Kitchen",
+	"scenes":[
+		{
+			"id":"Kitchen",
+			"photopanos":[
+				{"src":"kitchen.jpg","rotateY":200}
+			],
+			"navs":[
+				{"to":"Living-room","txt":"Living-room","rotateY":225}
+			]
+		},
+		{
+			"id":"Living-room",
+			"photopanos":[
+				{"src":"living-room.jpg","rotateY":270}
+			],
+            "navs":[
+                {"to":"Corridor","txt":"Corridor","rotateY":111,"rotateX":6,
+                	"nextRotateY":130,
+                	"icon":"icons/info.png","iconWidth":1.5,"iconHeight":1.5
+				}
+            ]
+        }
+    ]
+	
+}
+
+
+
