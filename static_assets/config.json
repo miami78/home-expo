@@ -1,0 +1,58 @@
+{
+    "initialSceneId": "Lawn",
+    "scenes": [
+        {
+            "id": "Lawn",
+            "title": "Lawn",
+            "image": "panos/Lawn.jpg",
+            "preview": "#",
+            "scenes": [
+              {
+                "sceneId": "LivingRoom",
+                "location": {
+                  "left": 1800,
+                  "top": 700
+                }
+              }
+            ]
+          },
+      {
+        "id": "LivingRoom",
+        "title": "LivingRoom",
+        "image": "panos/LivingRoom.jpg",
+        "preview": "#",
+        "scenes": [
+          {
+            "sceneId": "Kitchen",
+            "location": {
+              "left": 2200,
+              "top": 900
+            }
+          }
+        ]
+      },
+      {
+        "id": "Kitchen",
+        "title": "Kitchen",
+        "image": "panos/Kitchen.jpg",
+        "preview": "#",
+        "scenes": [
+          {
+            "sceneId": "Bedroom",
+            "location": {
+              "left": 1100,
+              "top": 610
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Bedroom",
+        "title": "Bedroom",
+        "image": "panos/Bedroom.jpg",
+        "preview": "#"
+      }
+    ]
+  }
+  

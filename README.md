@@ -1,8 +1,5 @@
-# home-expo
-react 360 project
+*git clone
+*npm install
+*npm start
 
-## Set up
-- Clone the Repository.
-- Install react 360 globaly on your machine.
-- npm install.
-- npm start
+The images are only tests.
