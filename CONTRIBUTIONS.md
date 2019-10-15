@@ -1,4 +1,4 @@
-# Contributing to Assessment
+# Contributing to HomeExpo
 
 Thank you for taking your time to  look at the [**HomeExpo**](https://github.com/fdce/HomeExpo) project. :clap:
 
