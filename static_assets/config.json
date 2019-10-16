@@ -5,7 +5,7 @@
             "id": "Lawn",
             "title": "Lawn",
             "image": "panos/Lawn.jpg",
-            "preview": "#",
+            "preview": "panos/Lawn.jpg",
             "scenes": [
               {
                 "sceneId": "LivingRoom",
@@ -20,7 +20,7 @@
         "id": "LivingRoom",
         "title": "LivingRoom",
         "image": "panos/LivingRoom.jpg",
-        "preview": "#",
+        "preview": "panos/LivingRoom.jpg",
         "scenes": [
           {
             "sceneId": "Kitchen",
@@ -35,7 +35,7 @@
         "id": "Kitchen",
         "title": "Kitchen",
         "image": "panos/Kitchen.jpg",
-        "preview": "#",
+        "preview": "panos/Kitchen.jpg",
         "scenes": [
           {
             "sceneId": "Bedroom",
@@ -51,7 +51,7 @@
         "id": "Bedroom",
         "title": "Bedroom",
         "image": "panos/Bedroom.jpg",
-        "preview": "#"
+        "preview": "panos/Bedroom.jpg"
       }
     ]
   }
