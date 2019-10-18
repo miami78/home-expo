@@ -24,4 +24,6 @@ npm start
 Be sure to go through the [contribution guidelines](CONTRIBUTIONS.md)
 
 ## License
-This project is under the [MIT licence](LICENSE)
+
+This project is under the [MIT licence](LICENCE)
+
