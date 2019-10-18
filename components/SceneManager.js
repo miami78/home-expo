@@ -5,13 +5,12 @@ import SceneTitle from "./SceneTitle";
 import Popup from "./InfoPopup";
 import Scene from "./Scene";
 export default class SceneManager extends React.Component {
-    constructor(props){
-        super(props);
+    
 
-        this.state = {
+        state = {
             currentSceneId: this.props.initialSceneId
         };
-    }
+    
 
     componentDidMount() {
         this.updateScene({});
@@ -36,8 +35,8 @@ export default class SceneManager extends React.Component {
         return this.props.scenes.find(scene => scene.id === sceneId);
       };
 
-      handleSceneClick = (e) => {
-        this.setState({ currentSceneId: e.id });
+      handleSceneClick = sceneNext => {
+        this.setState({ currentSceneId: sceneNext.id });
       };
 
       renderPopups = (popups = []) => {
@@ -58,7 +57,7 @@ export default class SceneManager extends React.Component {
               return (
                   <Scene
                     key={i}
-                    onClick={this.handleSceneClick}
+                    onClick={this.handleSceneClick.bind(this, sceneNext)}
                     title={sceneNext.title}
                     preview={sceneNext.preview}
                     location={scene.location}
