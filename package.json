@@ -5,11 +5,10 @@
   "scripts": {
     "start": "node node_modules/react-360/scripts/packager.js",
     "bundle": "node node_modules/react-360/scripts/bundle.js && sh scripts/copy-assets.sh",
-    "deploy": "node scripts/deploy.js",
     "open": "node -e \"require('xopen')('http://localhost:8081/index.html')\"",
-    "homepage":"https://yourusername.github.io/repository-name",
     "devtools": "react-devtools",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "node scripts/deploy.js"
   },
   "dependencies": {
     "react": "16.3.2",
