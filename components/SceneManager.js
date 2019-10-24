@@ -35,7 +35,7 @@ export default class SceneManager extends React.Component {
         return this.props.scenes.find(scene => scene.id === sceneId);
       };
 
-      handleSceneClick = sceneNext => {
+      handleSceneClick = (e,sceneNext) => {
         this.setState({ currentSceneId: sceneNext.id });
       };
 
@@ -57,7 +57,7 @@ export default class SceneManager extends React.Component {
               return (
                   <Scene
                     key={i}
-                    onClick={this.handleSceneClick.bind(this, sceneNext)}
+                    onClick={e =>this.handleSceneClick(e, sceneNext)}
                     title={sceneNext.title}
                     preview={sceneNext.preview}
                     location={scene.location}
